@@ -4,3 +4,4 @@ venv
 *.pyc
 hr_management/__pycache__/
 hr_management.pem
+media
