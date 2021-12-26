@@ -4,7 +4,7 @@
 
 <form method="POST">
     {% csrf_token %}
-    <h1>Are you sure you want to delete the department {{ obj }}</h1>
+    <h1>Are you sure you want to delete the department {{ object }}</h1>
     {{ form }}
 
     <button type="submit" class="btn btn-danger">Confirm</button>
